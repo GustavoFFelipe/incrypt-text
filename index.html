@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="anansi-favicon.png" type="image/x-icon">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="index.css">
+
+
+    <!--Fonts-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <title>Anansi Cryptos</title>
+</head>
+<body>
+
+    <main id="container">
+        <section id="normal-text" class="grid-1">
+            <div id="head-canvas">
+                <img src="anansi-favicon.png" alt="">
+                <h4>Anansi Crypto</h4>
+            </div>
+         
+
+           <textarea name="" id="incryptText" cols="200" rows="60" placeholder="Type your text here .."></textarea>
+            <div id="bottom">
+                <div class="info">
+                    <img src="info.png" alt="">
+                <span>Only low-case and not special characters.</span>
+                </div>
+                
+
+                <div id="btn">
+                
+                    <button onClick="incryptBtn()" id="btn-1">
+                        Incrypt
+                    </button>
+                    <button onClick="uncryptBtn()" id="btn-2">
+                        Uncript
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="crypto-text" class="grid-2">
+            
+                <div id="uncrypt">
+                    <p id="side"></p>
+
+
+                    <button onClick="copyButton()" id="copyText">Copy</button>
+                    <div id="any-massage">
+                        <img id="draw" src="text-canva.svg" alt="">
+                        <div id="text-crypt">
+                            <h3>Any massage find</h3>
+                            <p>Type the text that you'll want incrypt or uncrypt</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
