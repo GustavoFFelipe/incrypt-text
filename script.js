@@ -34,7 +34,7 @@ function incryptBtn(){
             } else {
                 sideText.value = message.value.
             replace(/[e|é|è|ê|ể|ë]/g, 'enter').
-            replace(/[i|í|ì|î]/g, 'imea').
+            replace(/[i|í|ì|î]/g, 'imes').
             replace(/[a|à|á|â|ã|ä|å]/g, 'ai').
             replace(/[o|ó|ò|ô|ö]/g, 'ober').
             replace(/[u|ú|ù|ü]/g, 'ufat').
